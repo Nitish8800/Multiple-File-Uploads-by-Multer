@@ -19,6 +19,7 @@ const singleFileUpload = async (req, res, next) => {
     res.status(400).send(error.message);
   }
 };
+
 const multipleFileUpload = async (req, res, next) => {
   try {
     let filesArray = [];
